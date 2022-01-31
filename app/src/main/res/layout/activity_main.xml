@@ -21,6 +21,11 @@
     </com.google.android.material.appbar.AppBarLayout>
 
     <include layout="@layout/content_main" />
+    <include layout="@layout/content2_main">
+        <TextView android:id="@+id/content2Text"/>
+    </include>
+
+
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fab"
